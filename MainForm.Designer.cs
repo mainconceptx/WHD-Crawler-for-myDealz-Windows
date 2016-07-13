@@ -290,7 +290,7 @@ namespace WHD_Crawler
 			this.MaximizeBox = false;
 			this.Name = "MainForm";
 			this.Text = "WHD-Crawler for myDealz.de";
-			this.TopMost = true;
+			this.TopMost = false;
 			this.PVL_GroupBox.ResumeLayout(false);
 			this.Output_GroupBox.ResumeLayout(false);
 			this.Output_GroupBox.PerformLayout();
