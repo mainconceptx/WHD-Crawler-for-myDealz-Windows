@@ -51,7 +51,8 @@ namespace WHD_Crawler
 			this.Copyright = new System.Windows.Forms.ToolStripStatusLabel();
 			this.DL_Progress = new System.Windows.Forms.ProgressBar();
 			this.label1 = new System.Windows.Forms.Label();
-			this.PVL_GroupBox.SuspendLayout();
+            this.clearUrl = new System.Windows.Forms.Button();
+            this.PVL_GroupBox.SuspendLayout();
 			this.Output_GroupBox.SuspendLayout();
 			this.Optionen_GroupBox.SuspendLayout();
 			this.Discount_GB.SuspendLayout();
@@ -76,9 +77,9 @@ namespace WHD_Crawler
 			// 
 			// Submit
 			// 
-			this.Submit.Location = new System.Drawing.Point(28, 137);
+			this.Submit.Location = new System.Drawing.Point(111, 137);
 			this.Submit.Name = "Submit";
-			this.Submit.Size = new System.Drawing.Size(630, 23);
+			this.Submit.Size = new System.Drawing.Size(540, 23);
 			this.Submit.TabIndex = 2;
 			this.Submit.Text = "Beginne Crawling";
 			this.Submit.UseVisualStyleBackColor = true;
@@ -259,13 +260,24 @@ namespace WHD_Crawler
 			this.label1.TabIndex = 11;
 			this.label1.Text = "Fortschritt:";
 			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// MainForm
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            // 
+            // clearUrl
+            // 
+            this.clearUrl.Location = new System.Drawing.Point(24, 137);
+            this.clearUrl.Name = "clearUrlTextbox";
+            this.clearUrl.Size = new System.Drawing.Size(77, 23);
+            this.clearUrl.TabIndex = 12;
+            this.clearUrl.Text = "URL löschen";
+            this.clearUrl.UseVisualStyleBackColor = true;
+            this.clearUrl.Click += new System.EventHandler(this.clearUrl_Click);
+            // 
+            // MainForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1245, 581);
-			this.Controls.Add(this.label1);
+            this.Controls.Add(this.clearUrl);
+            this.Controls.Add(this.label1);
 			this.Controls.Add(this.DL_Progress);
 			this.Controls.Add(this.statusStrip1);
 			this.Controls.Add(this.Optionen_GroupBox);
@@ -311,5 +323,6 @@ namespace WHD_Crawler
 		private System.Windows.Forms.Button Submit;
 		private System.Windows.Forms.Label Label_URL;
 		private System.Windows.Forms.TextBox URL_TextBox;
-	}
+        private System.Windows.Forms.Button clearUrl;
+    }
 }

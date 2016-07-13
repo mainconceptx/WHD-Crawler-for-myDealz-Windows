@@ -6,3 +6,10 @@ F:\Coding\WHD-Crawler\obj\Debug\WHD-Crawler.pdb
 F:\Coding\WHD-Crawler\obj\Debug\WHD_Crawler.MainForm.resources
 F:\Coding\WHD-Crawler\obj\Debug\WHD-Crawler.csproj.GenerateResource.Cache
 F:\Coding\WHD-Crawler\WHD-Crawler-for-myDealz-Windows\bin\Debug\WHD-Crawler.exe
+C:\Users\pu\Source\Repos\WHD-Crawler-for-myDealz-Windows\bin\Debug\WHD-Crawler.exe
+C:\Users\pu\Source\Repos\WHD-Crawler-for-myDealz-Windows\bin\Debug\WHD-Crawler.pdb
+C:\Users\pu\Source\Repos\WHD-Crawler-for-myDealz-Windows\obj\Debug\WHD-Crawler.csprojResolveAssemblyReference.cache
+C:\Users\pu\Source\Repos\WHD-Crawler-for-myDealz-Windows\obj\Debug\WHD_Crawler.MainForm.resources
+C:\Users\pu\Source\Repos\WHD-Crawler-for-myDealz-Windows\obj\Debug\WHD-Crawler.csproj.GenerateResource.Cache
+C:\Users\pu\Source\Repos\WHD-Crawler-for-myDealz-Windows\obj\Debug\WHD-Crawler.exe
+C:\Users\pu\Source\Repos\WHD-Crawler-for-myDealz-Windows\obj\Debug\WHD-Crawler.pdb

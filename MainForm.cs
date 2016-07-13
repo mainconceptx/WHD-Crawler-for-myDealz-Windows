@@ -403,8 +403,13 @@ namespace WHD_Crawler
 			Heise_Checkbox.Checked = false;
 			//Idealo_Checkbox.Checked = false;
 		}
-		
-		void crawl(object sender, EventArgs e)
+
+        private void clearUrl_Click(object sender, EventArgs e)
+        {
+            URL_TextBox.Text = String.Empty;
+        }
+
+        void crawl(object sender, EventArgs e)
 		{
 			
 			string ASIN;

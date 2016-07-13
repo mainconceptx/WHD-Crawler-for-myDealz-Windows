@@ -7,3 +7,7 @@ F:\Coding\WHD-Crawler\WHD-Crawler-for-myDealz-Windows\bin\Release\WHD-Crawler.ex
 F:\Coding\WHD-Crawler\WHD-Crawler-for-myDealz-Windows\obj\Release\WHD_Crawler.MainForm.resources
 F:\Coding\WHD-Crawler\WHD-Crawler-for-myDealz-Windows\obj\Release\WHD-Crawler.csproj.GenerateResource.Cache
 F:\Coding\WHD-Crawler\WHD-Crawler-for-myDealz-Windows\obj\Release\WHD-Crawler.exe
+C:\Users\pu\Source\Repos\WHD-Crawler-for-myDealz-Windows\obj\Release\WHD-Crawler.exe
+C:\Users\pu\Source\Repos\WHD-Crawler-for-myDealz-Windows\bin\Release\WHD-Crawler.exe
+C:\Users\pu\Source\Repos\WHD-Crawler-for-myDealz-Windows\obj\Release\WHD_Crawler.MainForm.resources
+C:\Users\pu\Source\Repos\WHD-Crawler-for-myDealz-Windows\obj\Release\WHD-Crawler.csproj.GenerateResource.Cache
